@@ -124,6 +124,12 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 import os
 
+# settings.py
+
+# URL base pública desde donde se servirán los archivos multimedia.
+# Ejemplo: http://127.0.0.1:8000/media/portadas/imagen.jpg
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# Ruta física en tu computadora/servidor donde se guardarán las imágenes.
+# Crea una carpeta llamada "media" en la raíz de tu proyecto.
+MEDIA_ROOT = BASE_DIR / 'media'
