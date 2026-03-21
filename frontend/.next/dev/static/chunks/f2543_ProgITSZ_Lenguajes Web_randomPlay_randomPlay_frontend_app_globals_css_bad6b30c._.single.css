@@ -45,19 +45,6 @@
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
       --tw-outline-style: solid;
-      --tw-blur: initial;
-      --tw-brightness: initial;
-      --tw-contrast: initial;
-      --tw-grayscale: initial;
-      --tw-hue-rotate: initial;
-      --tw-invert: initial;
-      --tw-opacity: initial;
-      --tw-saturate: initial;
-      --tw-sepia: initial;
-      --tw-drop-shadow: initial;
-      --tw-drop-shadow-color: initial;
-      --tw-drop-shadow-alpha: 100%;
-      --tw-drop-shadow-size: initial;
       --tw-backdrop-blur: initial;
       --tw-backdrop-brightness: initial;
       --tw-backdrop-contrast: initial;
@@ -780,10 +767,6 @@
 
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
-  }
-
-  .mt-8 {
-    margin-top: calc(var(--spacing) * 8);
   }
 
   .mt-12 {
@@ -2370,10 +2353,6 @@
     padding-inline: calc(var(--spacing) * 6);
   }
 
-  .px-8 {
-    padding-inline: calc(var(--spacing) * 8);
-  }
-
   .py-0\.5 {
     padding-block: calc(var(--spacing) * .5);
   }
@@ -2937,10 +2916,6 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
-  }
-
-  .filter {
-    filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
   }
 
   .backdrop-blur-sm {
@@ -3873,12 +3848,6 @@
     .hover\:to-\[\#bc1888\]:hover {
       --tw-gradient-to: #bc1888;
       --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:text-\[\#7c3aed\]:hover {
-      color: #7c3aed;
     }
   }
 
@@ -5360,12 +5329,6 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:items-start {
-      align-items: flex-start;
-    }
-  }
-
-  @media (min-width: 48rem) {
     .md\:gap-1\.5 {
       gap: calc(var(--spacing) * 1.5);
     }
@@ -6812,72 +6775,6 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
-}
-
-@property --tw-blur {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-brightness {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-contrast {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-grayscale {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-hue-rotate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-invert {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-opacity {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-saturate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-sepia {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-drop-shadow {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-drop-shadow-color {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-drop-shadow-alpha {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 100%;
-}
-
-@property --tw-drop-shadow-size {
-  syntax: "*";
-  inherits: false
 }
 
 @property --tw-backdrop-blur {

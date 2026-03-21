@@ -1,10 +1,8 @@
 "use client"
 
 import { ProductCard } from './product-card'
-import type { Game } from '@/lib/game-data'
-
 interface ProductGridProps {
-  games: Game[]
+  games: any[] // <--- Cambiamos Game[] por any[]
 }
 
 export function ProductGrid({ games }: ProductGridProps) {
