@@ -1,6 +1,7 @@
 "use client"
 
-import { cn } from '@/lib/utils'
+// Función cn local para evitar dependencia de @/lib/utils
+const cn = (...classes: (string | boolean | undefined)[]) => classes.filter(Boolean).join(' ')
 
 interface SocialIconProps {
   className?: string
